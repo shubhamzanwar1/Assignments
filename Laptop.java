@@ -12,7 +12,7 @@ public class Laptop implements product
 	@Override
 	public void productCost(double price)
 	{
-		double gstprice= price * 0.5;
+		double gstprice= price * 0.05;
 
 		double totalprice= gstprice + price;
 		
